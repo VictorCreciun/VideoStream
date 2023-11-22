@@ -1,0 +1,452 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs-Release-ec580da4e47c3b0e73da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/uvgRTP",
+					"childIndexes" : 
+					[
+						3,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.uvgRTP-Release-ff7e1722e36ce2834710.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/uvgRTP",
+					"targetIndexes" : 
+					[
+						17,
+						19
+					]
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-_deps.googletest-build-Release-3f7670dbec88c6d21de4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "cmake-build-release/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Release-0df449eea8cc44844d8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "cmake-build-release/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Release-9858c3d14f58b682092d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "cmake-build-release/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "libs/uvgRTP/examples",
+					"jsonFile" : "directory-libs.uvgRTP.examples-Release-14b5172bd4567c59a0ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "libs/uvgRTP/examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						20
+					]
+				},
+				{
+					"build" : "libs/uvgRTP/test",
+					"jsonFile" : "directory-libs.uvgRTP.test-Release-b56e1b6319cd4dfabfa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "libs/uvgRTP/test",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						8
+					],
+					"name" : "VideoStream",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "uvgrtp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 1
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "uvgrtp_examples",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "uvgrtp_test",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "binding::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-binding-Release-1c0fc6068e55b21f4e07.json",
+					"name" : "binding",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "configuration::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-configuration-Release-85307dca0f76b5d93f4f.json",
+					"name" : "configuration",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "custom_timestamps::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-custom_timestamps-Release-ddf44d20d8bc6a76a043.json",
+					"name" : "custom_timestamps",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "executable::@145eef247bfb46b6828c",
+					"jsonFile" : "target-executable-Release-cdba292a50bcf7b4281b.json",
+					"name" : "executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Release-bac435bc3f6647bc7940.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Release-e6e04cf7360529e55c5d.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Release-1351b52362932926a2ff.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Release-1b620a972f9043d53be5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "receiving_hook::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-receiving_hook-Release-0b1d8a2f28095263ed3d.json",
+					"name" : "receiving_hook",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "receiving_poll::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-receiving_poll-Release-4729a753b9a67273025a.json",
+					"name" : "receiving_poll",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "rtcp_hook::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-rtcp_hook-Release-c41248ad7ed2483d58db.json",
+					"name" : "rtcp_hook",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sending::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-sending-Release-337f3a71b81341b6f83c.json",
+					"name" : "sending",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sending_generic::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-sending_generic-Release-e0cebd3edb25f31d16c5.json",
+					"name" : "sending_generic",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "srtp_user::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-srtp_user-Release-bc39e0f10070651a7aaa.json",
+					"name" : "srtp_user",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "srtp_zrtp::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-srtp_zrtp-Release-8671ff6c978111b07087.json",
+					"name" : "srtp_zrtp",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sync_receiver::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-sync_receiver-Release-55295b486ef8d2055c14.json",
+					"name" : "sync_receiver",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sync_sender::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-sync_sender-Release-9b2d6c30566af1e349db.json",
+					"name" : "sync_sender",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uvgrtp::@ba9b6b2ee0c6b347934d",
+					"jsonFile" : "target-uvgrtp-Release-78ad104a7e70df7f5c74.json",
+					"name" : "uvgrtp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "uvgrtp_test::@601c44366a3db99d804c",
+					"jsonFile" : "target-uvgrtp_test-Release-57d6f3f3f92c02adea9f.json",
+					"name" : "uvgrtp_test",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uvgrtp_version::@ba9b6b2ee0c6b347934d",
+					"jsonFile" : "target-uvgrtp_version-Release-77088b85bf2aa8de89a1.json",
+					"name" : "uvgrtp_version",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "zrtp_multistream::@80e8f3dfa0d326eae2ae",
+					"jsonFile" : "target-zrtp_multistream-Release-7618a4845f3c4df8be4c.json",
+					"name" : "zrtp_multistream",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/victor/Desktop/VideoStream/cmake-build-release",
+		"source" : "/home/victor/Desktop/VideoStream"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

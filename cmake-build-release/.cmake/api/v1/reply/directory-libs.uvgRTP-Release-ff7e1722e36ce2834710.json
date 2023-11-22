@@ -1,0 +1,91 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/uvgRTP/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "uvgrtp_Runtime",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/uvgRTP/libuvgrtp.a"
+			],
+			"targetId" : "uvgrtp::@ba9b6b2ee0c6b347934d",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/uvgrtp",
+			"exportName" : "uvgrtpTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "uvgrtp::@ba9b6b2ee0c6b347934d",
+					"index" : 17
+				},
+				{
+					"id" : "uvgrtp_version::@ba9b6b2ee0c6b347934d",
+					"index" : 19
+				}
+			],
+			"paths" : 
+			[
+				"libs/uvgRTP/CMakeFiles/Export/ec286d104ed254c2943602fc42ca539f/uvgrtpTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "uvgRTPMain",
+			"destination" : "lib/cmake/uvgrtp",
+			"paths" : 
+			[
+				"libs/uvgRTP/cmake/uvgrtpConfig.cmake",
+				"libs/uvgRTP/cmake/uvgrtpMacros.cmake",
+				"cmake-build-release/libs/uvgRTP/uvgrtp/uvgrtpConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/uvgRTP",
+		"source" : "libs/uvgRTP"
+	}
+}

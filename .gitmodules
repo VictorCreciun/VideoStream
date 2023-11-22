@@ -1,0 +1,3 @@
+[submodule "libs/uvgRTP"]
+	path = libs/uvgRTP
+	url = https://github.com/VictorCreciun/uvgRTP.git
