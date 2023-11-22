@@ -26,6 +26,10 @@ sudo apt-get install ninja-build
 sudo apt install cmake
 ```
 Also need to install OPENCV or build from source (preferred way)
+```bash
+https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html
+
+```
 
 
 If the repository was cloned non-recursively previously, use 
